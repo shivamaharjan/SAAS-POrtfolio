@@ -1,0 +1,216 @@
+// colors
+// primary.color : FEFAE0
+// secondary : DDA15E
+
+$primary-color: #fefae0;
+$secondary-color: #dda15e;
+$white-color: white;
+$black-color: black;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+  gap: 1rem;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.primary-header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 2rem;
+  background-color: $secondary-color;
+  color: $black-color;
+  box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.348);
+  .logo {
+    justify-content: center;
+    margin-left: 3rem;
+    div {
+      &:nth-child(1) {
+        h1 {
+          font-size: 3rem;
+          font-weight: 700;
+        }
+      }
+
+      &:nth-child(2) {
+        width: 6px;
+        background-color: $primary-color;
+      }
+
+      &:nth-child(3) {
+        h1 {
+          font-weight: 500;
+          font-size: 1.8rem;
+        }
+      }
+    }
+  }
+  .right {
+    margin-right: 2rem;
+    font-size: 1.3rem;
+  }
+}
+
+.section1 {
+  padding: 3rem 10rem;
+
+  .hero {
+    padding: 3rem;
+    background-color: $primary-color;
+
+    .left {
+      flex: 1;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+
+      .name{
+        font-size: 1.7rem;
+        font-weight: bold;
+        color: $black-color;
+
+      }
+
+      .tag {
+        color: $black-color;
+        font-size: 1.3rem;
+      }
+      .sub-tag {
+        color: $black-color;
+        font-size: 1rem;
+      }
+
+      button {
+        // width: 200px;
+        cursor: pointer;
+        background-color: $secondary-color;
+        color: $black-color;
+        padding: 0.8rem 1.2rem;
+        border: none;
+        border-radius: 2rem;
+      }
+    }
+
+    .right {
+      flex: 1;
+      justify-content: center;
+      img {
+        height: 250px;
+        transform: scale(1.5)
+      }
+
+    }
+  }
+}
+
+.section2 {
+    padding: 3rem 10rem;
+    .info-container {
+        max-width: 100%;
+        margin: auto;
+        background-color: $primary-color;
+        padding: 2rem;
+        border-radius: 100px;
+        border: 2px solid $black-color
+        }
+        .info-lists{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            .info-divider{
+                height: 80px;
+                width: 10px;
+                background-color: $secondary-color;
+            }
+            .info-content {
+                align-items: center;
+                .icon-container {
+                    background-color: #dda15e;
+                    height: 5rem;
+                    width: 5rem;
+                    border-radius: 50%;
+                    
+
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+
+                  
+                    i {
+                        font-size: 3rem;
+                        color: $black-color;
+                    }
+                   
+                }
+            }
+            }
+        }
+
+.section3 {
+    
+    padding: 3rem 10rem;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 5rem;
+    .skills {
+        h5{
+            font-size: 2rem;
+            display: flex;
+            justify-content: center;
+        }
+        .html1 {
+            i {
+        
+                    font-size: 13rem;
+                    color: $black-color;
+            
+            }
+        }
+    }
+
+}
+
+.section4 {
+    padding: 3rem 10rem;
+    // h5{
+    //     display: flex;
+    //     justify-content: center;
+    //     align-items: center;
+    //     font-size: 2rem;
+    //     background-color: $secondary-color;
+    //     width: 400px;
+    //     border-radius: 1rem;
+    //     margin-left: 14rem;
+    //     margin-bottom: 5rem;
+    // }
+    
+.flex1 {
+    .img1 {
+        img{
+            height: 200px;
+        }
+    }
+}
+.flex2 {
+    .img1 {
+        img{
+            height: 200px;
+        }
+    }
+}
+}
+    
