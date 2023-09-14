@@ -148,9 +148,117 @@ a {
 .section4 {
   padding: 3rem 10rem;
 }
-.section4 .flex1 .img1 img {
+.section4 h5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  background-color: #dda15e;
+  width: 400px;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  margin-left: 14rem;
+  margin-bottom: 5rem;
+}
+.section4 .row1 {
+  justify-content: space-between;
+  align-items: center;
+}
+.section4 .row1 .project1 .img1 img {
   height: 200px;
 }
-.section4 .flex2 .img1 img {
+.section4 .row1 .project1 .icons1, .section4 .row1 .project1 .react, .section4 .row1 .project1 .date {
+  background-color: #dda15e;
+}
+.section4 .row2 {
+  justify-content: space-between;
+  align-items: center;
+}
+.section4 .row2 .img1 img {
   height: 200px;
+}
+.section4 .row2 .icons1, .section4 .row2 .react, .section4 .row2 .date {
+  background-color: #dda15e;
+}
+
+.section5 {
+  background-color: #dda15e;
+  margin-top: 2rem;
+  padding-top: 2rem;
+}
+.section5 h1 {
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section5 .aboutme {
+  justify-content: space-between;
+  gap: 10rem;
+}
+.section5 .aboutme .description h5 {
+  font-size: 2.5rem;
+  margin-top: 7rem;
+  margin-bottom: 1rem;
+}
+.section5 .aboutme .description p {
+  font-size: 1.3rem;
+}
+.section5 .aboutme .description ul {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 10rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.section6 {
+  flex-direction: column;
+  align-items: center;
+  background-color: #fefae0;
+  padding-top: 2rem;
+}
+.section6 h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+.section6 .icons {
+  font-size: 5rem;
+  gap: 7rem;
+  justify-content: space-between;
+}
+.section6 h2 {
+  margin-top: 2rem;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+.section6 .email {
+  background-color: #dda15e;
+  font-size: 2rem;
+  align-items: center;
+  padding: 1rem 2rem;
+  border-radius: 4rem;
+}
+
+.section7 {
+  margin-top: 4rem;
+  padding: 3rem 20rem;
+  background-color: #dda15e;
+}
+.section7 .heading {
+  justify-content: space-between;
+}
+.section7 .heading .head {
+  flex-direction: column;
+}
+.section7 .heading .head h1 {
+  font-size: 1.6rem;
+}
+.section7 .heading .head p {
+  font-size: 1.2rem;
+}
+.section7 .foot {
+  margin-top: 2rem;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */
