@@ -18,7 +18,31 @@ a {
   color: inherit;
 }
 
+#darkmode {
+  display: none;
+}
+
+.dark-mode-toggle {
+  position: fixed;
+  top: 5rem;
+  left: 3rem;
+  cursor: pointer;
+}
+.dark-mode-toggle:hover {
+  transform: scale(1.5);
+  transition: all 0.5s;
+}
+
+:root {
+  --primary: #fefae0;
+  --secondary: #dda15e;
+  --text-color: white;
+}
+
 .primary-header {
+  position: sticky;
+  z-index: 99999;
+  top: 0;
   align-items: center;
   display: flex;
   justify-content: space-between;
@@ -46,6 +70,11 @@ a {
 .primary-header .right {
   margin-right: 2rem;
   font-size: 1.3rem;
+}
+.primary-header .right li:hover {
+  color: #fefae0;
+  transition: all 0.3s;
+  transform: translateY(-3px);
 }
 
 .section1 {
@@ -239,6 +268,12 @@ a {
   padding: 1rem 2rem;
   border-radius: 4rem;
   margin-bottom: 4rem;
+}
+.section6 .email i {
+  background-color: #fefae0;
+  padding: 0.6rem;
+  border-radius: 50%;
+  color: #dda15e;
 }
 
 .section7 {

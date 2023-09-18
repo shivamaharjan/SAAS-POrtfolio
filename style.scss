@@ -13,6 +13,8 @@ $black-color: black;
   box-sizing: border-box;
 }
 
+
+
 .flex {
   display: flex;
   gap: 1rem;
@@ -26,7 +28,36 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+#darkmode{
+  display: none;
+}
+
+.dark-mode-toggle {
+  position: fixed;
+  top: 5rem;
+  left: 3rem;
+  cursor: pointer;
+  &:hover{
+    transform: scale(1.5);
+    transition: all 0.5s;
+  }
+}
+
+
+:root{
+  --primary: #fefae0;
+  --secondary : #dda15e;
+  --text-color: white;
+
+
+}
+
+
 .primary-header {
+  position: sticky;
+  z-index: 99999; 
+  top: 0;
   align-items: center;
   display: flex;
   justify-content: space-between;
@@ -61,6 +92,13 @@ a {
   .right {
     margin-right: 2rem;
     font-size: 1.3rem;
+    li{
+      &:hover{
+        color: #fefae0;
+        transition: all 0.3s;
+        transform: translateY(-3px);
+      }
+    }
   }
 }
 
@@ -283,6 +321,12 @@ a {
     padding: 1rem 2rem;
     border-radius: 4rem;
     margin-bottom: 4rem;
+    i{
+      background-color: #fefae0;
+      padding: 0.6rem;
+      border-radius: 50%;
+      color: $secondary-color;
+    }
 
   }
   
